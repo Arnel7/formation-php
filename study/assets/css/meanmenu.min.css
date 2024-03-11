@@ -1,0 +1,24 @@
+
+
+.mobile-menu-area {
+  background: #FFF;
+  padding: 20px;
+}
+
+.mobile-menu-area.sticky-menu {
+  left: 0;
+  margin: auto;
+  top: 0;
+  right: 0;
+  width: 100%;
+  position: fixed !important;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+  -webkit-animation: 300ms running fadeInDown;
+  animation: 500ms running fadeInUp;
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  transition: 0.5s !important;
+  background: #FFF!important;
+  z-index: 9999 !important;
+  animation-name: slideInDown;
+  padding: 20px;
+}
